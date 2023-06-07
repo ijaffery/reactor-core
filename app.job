@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Slurm job options (name, compute nodes, job time)
+#SBATCH --job-name=reactor_pdp
+#SBATCH --time=0:20:0
+#SBATCH --exclusive
+#SBATCH --nodes=1
+
+#SBATCH --account=<account_name>
+#SBATCH --partition=standard
+#SBATCH --qos=standard
+
+# default HPE MPI env
+module load mpt
+module load intel-compilers-19
+
+# cd to submission dir
+cd $SLURM_SUBMIT_DIR
+
+program="./reactor"
+configfile="config_simple.txt"
+outputfile="result.txt"
+
+tasksPerNode=16
+cpusPerTask=1
+
+
+srun --tasks-per-node=$tasksPerNode --cpus-per-task=$cpusPerTask $program $configfile $outputfile

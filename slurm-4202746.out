@@ -1,0 +1,19 @@
+Loading intel-compilers-19/19.0.0.117
+  Loading requirement: intel-license gcc/8.2.0 intel-cc-19/19.0.0.117
+    intel-fc-19/19.0.0.117
+Simulation configured for reactor core of size 1m by 1m by 1m, timesteps=1000 dt=10ns
+------------------------------------------------------------------------------------------------
+Timestep: 100, model time is 1.000000e-06 secs, current runtime is 1.80 seconds. 1000000 active neutrons, 350941 fissions, releasing 7.018820e+07 MeV and 1.123011e-05 Joules
+Timestep: 200, model time is 2.000000e-06 secs, current runtime is 3.31 seconds. 1000000 active neutrons, 710322 fissions, releasing 1.420644e+08 MeV and 2.273030e-05 Joules
+Timestep: 300, model time is 3.000000e-06 secs, current runtime is 4.82 seconds. 1000000 active neutrons, 1069248 fissions, releasing 2.138496e+08 MeV and 3.421594e-05 Joules
+Timestep: 400, model time is 4.000000e-06 secs, current runtime is 6.33 seconds. 1000000 active neutrons, 1428740 fissions, releasing 2.857480e+08 MeV and 4.571968e-05 Joules
+Timestep: 500, model time is 5.000000e-06 secs, current runtime is 7.84 seconds. 1000000 active neutrons, 1789510 fissions, releasing 3.579020e+08 MeV and 5.726432e-05 Joules
+Timestep: 600, model time is 6.000000e-06 secs, current runtime is 9.35 seconds. 1000000 active neutrons, 2150100 fissions, releasing 4.300200e+08 MeV and 6.880320e-05 Joules
+Timestep: 700, model time is 7.000000e-06 secs, current runtime is 10.87 seconds. 1000000 active neutrons, 2509973 fissions, releasing 5.019946e+08 MeV and 8.031914e-05 Joules
+Timestep: 800, model time is 8.000000e-06 secs, current runtime is 12.38 seconds. 1000000 active neutrons, 2869763 fissions, releasing 5.739526e+08 MeV and 9.183242e-05 Joules
+Timestep: 900, model time is 9.000000e-06 secs, current runtime is 13.90 seconds. 1000000 active neutrons, 3230794 fissions, releasing 6.461588e+08 MeV and 1.033854e-04 Joules
+------------------------------------------------------------------------------------------------
+Model completed after 1000 timesteps
+Total model time: 0.000010 secs
+Total fissions: 3587097 releasing 7.174194e+08 MeV and 1.147871e-04 Joules
+Total runtime: 15.40 seconds
